@@ -39,7 +39,7 @@ export default function App() {
   };
 
   return (
-    <>
+    <div className={css.app}>
       <SearchBar onSubmit={handleSearch} />
       {isError && <ErrorMessage />}
       {isLoading && <Loader />}
@@ -50,6 +50,6 @@ export default function App() {
         <MovieModal movie={selectedMovie} onClose={closeModal} />
       )}
       <Toaster />
-    </>
+    </div>
   );
 }
