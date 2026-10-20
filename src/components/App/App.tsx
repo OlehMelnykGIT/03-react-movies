@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import css from './App.module.css';
 import toast, { Toaster } from 'react-hot-toast';
 import Loader from '../Loader/Loader';
 import MovieModal from '../MovieModal/MovieModal';

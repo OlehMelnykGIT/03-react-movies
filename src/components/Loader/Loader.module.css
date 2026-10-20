@@ -10,3 +10,7 @@
   background-color: #e8f4fd;
   border-color: #b6d4fe;
 }
+.spinner {
+  display: block;
+  margin: 40px auto 0;
+}
